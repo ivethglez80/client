@@ -1,0 +1,28 @@
+.bar{
+    display: flex;
+    justify-content: space-around;
+    width:360px;
+    margin-top: 0px;
+    background-color: #E3E3E3;
+    align-items: baseline;
+}
+
+.imgNav{
+    margin-top: 0px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;    
+}
+
+.nosotros{
+    width: 360px;
+    background-color: #323232;
+}
+
+@media screen and (min-width:768px){
+    .bar{
+        width: 1115px;
+    }
+}

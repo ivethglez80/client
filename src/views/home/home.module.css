@@ -1,0 +1,99 @@
+.background{
+    background-image: url('../../img/balanza-bg-sm.png');
+    width: 360px;
+    height: 620px;
+    display: flex;
+    position: relative;
+}
+
+.bglogo{
+    
+}
+
+.logoDorado{
+    width: 330px;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.introItems{
+    padding: 20px;    
+    
+}
+
+.sideimg{
+    width: 80%;
+}
+
+.nosotros{
+    width: 360px;
+    background-color: #323232;
+}
+
+.sidetitle{
+    display: flex;
+    align-items: center;
+}
+.sidetitleh2{
+    color: #E3DFD6;   
+}
+
+.cardSvc{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width:768px){
+    .background{
+        background-image: url('../../img/balanza-bg.png');
+        width: 1115px;
+        height: 611px;
+    }
+    .logoDorado{
+        width: 500px;
+        margin-left: 20%;
+        padding: auto;        
+    }
+
+.intro{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;    
+}
+.sideimg{
+    width: 400px;
+    padding-top: 20px;
+}
+.introItems{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+margin-top: 15%;
+padding-right: 40px;
+padding-left: 40px;
+}
+.nosotros{
+    width: 1115px;
+    height: 611px;
+    display: flex;
+    flex-direction: row;   
+    justify-content: space-between; 
+    
+}
+.sidetitle{    
+    margin-left: 100px;
+}
+.cardSvc{
+    margin-left: auto;
+
+}
+
+}
