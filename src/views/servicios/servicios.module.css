@@ -1,0 +1,22 @@
+.uphalf{
+    width: 360px;
+    padding-top: 40px;
+}
+.rightside{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media screen and (min-width:768px){
+    .uphalf{
+        width: 1250px;
+        padding: 40px ;
+    }
+  
+    .txts{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+}

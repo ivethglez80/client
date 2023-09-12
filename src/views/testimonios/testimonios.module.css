@@ -1,0 +1,22 @@
+.background{
+    background-color: #E3DFD6;
+}
+.heading{
+    margin-top: 20px;
+    
+}
+.testimoniosdiv{
+    margin-bottom: 20px;
+}
+
+    @media screen and (min-width:768px){
+        .heading{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            padding-top: 17px;
+        }
+        .testimoniosdiv{
+            margin-bottom: 50px;
+            padding-bottom: 50px;
+        }
+}

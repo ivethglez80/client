@@ -4,7 +4,7 @@
     width:360px;
     margin-top: 0px;
     background-color: #E3E3E3;
-    align-items: baseline;
+    align-items: center;
 }
 
 .imgNav{
@@ -21,8 +21,16 @@
     background-color: #323232;
 }
 
+.logoMain{
+    height: 30px;
+}
+
 @media screen and (min-width:768px){
     .bar{
-        width: 1115px;
+        width: 1311px;
+        margin: auto;
+    }
+    .logoMain{
+        height: 40px;
     }
 }

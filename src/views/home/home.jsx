@@ -3,6 +3,8 @@ import styles from "./home.module.css";
 import logoDorado from "../../img/logo-dorado.png"
 import sideimg from "../../img/side-img.png"
 import Cardsvc from "../../components/cardsvc/cardsvc"
+import Servicios from "../servicios/servicios";
+import Testimonios from "../testimonios/testimonios";
 
 const home = () => {
     return(
@@ -15,8 +17,7 @@ const home = () => {
 
         <div className={styles.intro}>
             <span className={styles.introItems}>
-                <h2>Sabemos que el asunto</h2>
-                <h2>es dificil</h2>
+                <h2>Sabemos que el asunto es dificil</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla </p>
                 <button>CONTACTANOS</button>                
             </span>            
@@ -32,6 +33,14 @@ const home = () => {
             <span className={styles.cardSvc}>
                 <Cardsvc/>
             </span>
+        </div>
+
+        <div className={styles.servicios}>
+            <Servicios/>
+        </div>
+
+        <div className="styles.testimonios">
+          <Testimonios />
         </div>
 
     </>

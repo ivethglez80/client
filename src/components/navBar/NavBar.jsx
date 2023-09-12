@@ -1,11 +1,12 @@
 import {Link} from "react-router-dom";
 import styles from "./navBar.module.css"
+import generico from "../../img/logo-generico.png"
 
 const NavBar=()=>{
     return (
         <div className={styles.bar}>
-            <span className={styles.logoMain}>
-                <p className={styles.imgnav}>imagen</p>
+            <span>
+                <img src={generico} alt="generico" className={styles.logoMain}/>
             </span>
             <span className="styles.links">
             {/* <Link to="/intro">Introduccion </Link>
@@ -13,7 +14,7 @@ const NavBar=()=>{
             <Link to="/servicios">Especialidades </Link>
             <Link to="/testimonios">Testimonios</Link>
             <Link to="/contacto">Datos de contacto</Link> */}
-            <Link to="/form">Contactanos </Link>     
+            <button>Contactanos</button>     
             </span>       
         </div>
     )

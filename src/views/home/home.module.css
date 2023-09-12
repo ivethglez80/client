@@ -15,6 +15,7 @@
 }
 
 .intro{
+    width: 360px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,11 +23,14 @@
 }
 
 .introItems{
-    padding: 20px;    
+    margin-left: 50px;    
+    margin-right: 50px;
     
 }
 
 .sideimg{
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 80%;
 }
 
@@ -37,7 +41,8 @@
 
 .sidetitle{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 .sidetitleh2{
     color: #E3DFD6;   
@@ -49,24 +54,37 @@
     padding-bottom: 30px;
 }
 
+.servicios{
+    margin-bottom: 40px;
+}
+
 @media screen and (min-width:768px){
     .background{
         background-image: url('../../img/balanza-bg.png');
-        width: 1115px;
-        height: 611px;
+        background-size: 100% auto;
+        width: 1311px;
+        height: 550px;
+        background-position: center-top;
+        margin: auto;
     }
     .logoDorado{
         width: 500px;
         margin-left: 20%;
+                        
         padding: auto;        
     }
 
-.intro{
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: left;    
-}
+    .intro{
+        width: 1250px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;        
+        justify-content: center;
+    }
+    
+    .introItems{
+        margin: 0 100px;        
+    }
 .sideimg{
     width: 400px;
     padding-top: 20px;
@@ -81,18 +99,21 @@ padding-right: 40px;
 padding-left: 40px;
 }
 .nosotros{
-    width: 1115px;
+    width: auto;      
     height: 611px;
     display: flex;
     flex-direction: row;   
-    justify-content: space-between; 
+    justify-content: space-around; 
     
 }
 .sidetitle{    
-    margin-left: 100px;
+    margin-left: 50px;
+    padding-left: 150px;
+    justify-content: center;
+    align-items: center;
 }
 .cardSvc{
-    margin-left: auto;
+    
 
 }
 
