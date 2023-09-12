@@ -1,0 +1,27 @@
+.cardtst{
+width: calc((100% - 40px) / 1);
+padding: 20px;
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+p{
+    flex: 1;    
+    margin: 0;
+    padding: 0 40px;
+}
+
+.slider{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    justify-content: space-between ;
+    padding: 0 20px;
+}
+
+@media screen and (min-width: 768px){
+    .cardtst{
+        flex: 0 0 33%;
+    }
+}
