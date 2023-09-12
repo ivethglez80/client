@@ -51,11 +51,11 @@
   }
   
   .flipCardFront {
-    background: linear-gradient(126deg, rgba(1,0,36,1) 0%, rgba(9,79,121,1) 75%, rgba(0,212,255,1) 100%)
+    background: linear-gradient(312deg, rgba(36,0,0,1) 0%, rgba(121,58,9,1) 35%, rgba(181,132,5,1) 100%);
   }
   
   .flipCardBack {
-    background: linear-gradient(301deg, rgba(1,0,36,1) 0%, rgba(9,79,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(111deg, rgba(36,0,0,1) 0%, rgba(121,58,9,1) 35%, rgba(181,132,5,1) 100%);
     color: white;
     transform: rotateY(180deg);
   }
@@ -71,6 +71,9 @@
         justify-content: end;             
     }
     .flipCard{
-        margin-right: 50px;                
+        margin-right: 50px;
+        width: 300px;
+        height: 220px;                
+        padding-top: 20px;
     }
   }
