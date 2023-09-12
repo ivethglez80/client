@@ -2,8 +2,10 @@
     background-color: #E3DFD6;
 }
 .heading{
-    margin-top: 20px;
-    
+    margin-top: 20px;    
+}
+.heading h3{
+    color: black;
 }
 .testimoniosdiv{
     margin-bottom: 20px;

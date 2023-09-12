@@ -1,0 +1,25 @@
+.bgcf{
+    background-color: #323232;
+    padding: 30px;
+    
+}
+.formStyles{    
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;    
+}
+.textarea{
+   width: 60%;
+}
+
+@media screen and (min-width:768px) {
+    .bgcf{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .textarea{
+        width: 100%;
+     }
+}

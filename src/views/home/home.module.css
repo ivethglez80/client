@@ -6,9 +6,6 @@
     position: relative;
 }
 
-.bglogo{
-    
-}
 
 .logoDorado{
     width: 330px;
@@ -112,8 +109,8 @@ padding-left: 40px;
     justify-content: center;
     align-items: center;
 }
-.cardSvc{
-    
+.foot{
+    text-align: end;   
 
 }
 

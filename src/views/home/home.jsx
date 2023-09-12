@@ -5,6 +5,8 @@ import sideimg from "../../img/side-img.png"
 import Cardsvc from "../../components/cardsvc/cardsvc"
 import Servicios from "../servicios/servicios";
 import Testimonios from "../testimonios/testimonios";
+import Contacto from "../contacto/contacto";
+import ContactForm from "../form/form";
 
 const home = () => {
     return(
@@ -42,6 +44,21 @@ const home = () => {
         <div className="styles.testimonios">
           <Testimonios />
         </div>
+
+        <div className={styles.contacto}>
+        <Contacto />
+        </div>
+
+        <div className={styles.formulario}>
+            <ContactForm />
+        </div>
+
+        <footer className={styles.foot}>
+            <p>
+                todos los derechos <br />
+                y todo lo demas que se dice aqui
+            </p>
+        </footer>
 
     </>
     )

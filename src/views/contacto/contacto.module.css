@@ -1,0 +1,46 @@
+.bg{
+    background-color: #211B1B;
+}
+img{
+    width: 300px;
+}
+.upper p, .datos p , h3, .bottom p{
+    color: aliceblue;    
+}
+.icono{
+    color: aliceblue;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.datos{
+    padding-top: 30px;
+}
+.bottom{
+    padding-top: 50px;
+}
+
+@media screen and (min-width:768px){
+    .upper{
+        display: flex;
+        flex-direction: row;        
+        align-items: center;
+        
+    }
+    
+    .datos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;  
+        padding-bottom: 50px;      
+    }
+    .bottom{
+        padding-bottom: 30px;      
+        text-align: right;                     
+    }
+    img{
+        padding-left: 150px;
+    } 
+    .upper p{
+        margin-left: 300px;
+    }
+}
